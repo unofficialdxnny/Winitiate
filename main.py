@@ -42,13 +42,13 @@ while True:
         print(Colorate.Horizontal(Colors.yellow_to_red, "Preparing to winitiate Windows XP Home...", 1))
         playsound.playsound('./Sounds/XP su.mp3')
         os.system('slmgr/ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99 & slmgr /skms s9.us.to & slmgr /ato')
-        print(Colorate.Color(Colors.red, f'Windows 7 Home Winitiated Successfully!"', True))
+        print(Colorate.Color(Colors.green, f'Windows 7 Home Winitiated Successfully!"', True))
 
     elif split[0] == 'winitiate' and split[1] == 'windows' and split[2] == 'xp' and split[3] == 'professional':
         print(Colorate.Horizontal(Colors.yellow_to_red, "Preparing to winitiate Windows XP Professional...", 1))
         playsound.playsound('./Sounds/XP su.mp3')
         os.system('slmgr/ipk W269N-WFGWX-YVC9B-4J6C9-T83GX & slmgr /skms s9.us.to & slmgr /ato')
-        print(Colorate.Color(Colors.red, f'Windows 7 Professional Winitiated Successfully!"', True))
+        print(Colorate.Color(Colors.green, f'Windows 7 Professional Winitiated Successfully!"', True))
 
 
     elif main_input == '':
