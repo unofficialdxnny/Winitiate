@@ -24,3 +24,11 @@ If on Windows 7 Pro type : "winitiate windows xp professional"
 
 Type your version from above list in config.json.
 Let the magic begin.
+
+**Note if using exe manually create 'config.json' and paste below.**
+```json
+
+{
+    "version" : ""
+}
+```
